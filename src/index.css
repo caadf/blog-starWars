@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+
+.imagen{
+    width: 300px;
+    height: 300px;
+}
+
+.card-title{
+    color: white;
+} 
+
+p{
+    color: white;
+}
+ h3{
+    color: white;
+ }
