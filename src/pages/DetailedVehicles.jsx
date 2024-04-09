@@ -19,6 +19,15 @@ const DetailedVehicles = () => {
         <>
             {/*   <h1>{store?.details?.name}</h1> */}
             <div className="card-body text-center">
+            <img
+                    src={
+                        "https://starwars-visualguide.com/assets/img/vehicles/" +
+                        id +
+                        ".jpg"
+                    }
+                    className="card-img-top"
+                    alt="..."
+                ></img>
                 <h1 className="card-title mb-5">{name}</h1>
                 <p className="card-text">Manufacturer: {manufacturer}</p>
                 <p className="card-text">Length: {length}</p>
