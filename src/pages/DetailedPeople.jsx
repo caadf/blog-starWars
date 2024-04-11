@@ -20,7 +20,7 @@ const DetailedPeople = () => {
         <>
             {/*  <h1>{store?.details?.name}</h1> */}
             <div className="card-body /* text-center */">
-                <div className="imagen">
+                <div className="imagen1">
                     <img
                         src={
                             "https://starwars-visualguide.com/assets/img/characters/" + id + ".jpg"
@@ -29,14 +29,14 @@ const DetailedPeople = () => {
                         alt="..."
                     ></img>
                 </div>
-                <div className="contenedor">
+             {/*  <div className="contenedor"> */}
                     <h1 className="card-title mb-5 ">{name}</h1>
                     <p className="card-text">Height: {height}</p>
                     <p className="card-text">Mass: {mass}</p>
                     <p className="card-text">Hair Color: {hair_color}</p>
                     <p className="card-text">Skin Color: {skin_color}</p>
                     <p className="card-text">Eye Color: {eye_color}</p>
-                </div>
+                 {/* </div>  */}
             </div>
 
         </>

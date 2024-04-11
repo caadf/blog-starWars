@@ -20,7 +20,7 @@ const DetailedPlanets = () => {
         <>
            {/*  <h1>{store?.details?.name}</h1> */}
             <div className="card-body text-center">
-            <div className="imagen">
+            <div className="imagen1">
             <img
                     src={
                         "https://starwars-visualguide.com/assets/img/planets/" +
@@ -31,6 +31,7 @@ const DetailedPlanets = () => {
                     alt="..."
                 ></img>
                 </div>
+                
         <h1 className="card-title mb-5">{name}</h1>
         <p className="card-text">Diameter: {diameter}</p>
         <p className="card-text">Climate: {climate}</p>

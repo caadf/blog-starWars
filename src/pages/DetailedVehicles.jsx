@@ -19,7 +19,7 @@ const DetailedVehicles = () => {
         <>
             {/*   <h1>{store?.details?.name}</h1> */}
             <div className="card-body text-center">
-                <div className="vehiculo">
+                <div className="imagen3">
             <img
                     src={
                         "https://starwars-visualguide.com/assets/img/vehicles/" +
@@ -30,12 +30,14 @@ const DetailedVehicles = () => {
                     alt="..."
                 ></img>
                 </div>
+                <div className="contenedor">
                 <h1 className="card-title mb-5 ">{name}</h1>
                 <p className="card-text">Manufacturer: {manufacturer}</p>
                 <p className="card-text">Length: {length}</p>
                 <p className="card-text">Crew: {crew}</p>
                 <p className="card-text">Model: {model}</p>
                 <p className="card-text">Cargo_capacity: {cargo_capacity}</p>
+            </div>
             </div>
 
         </>
