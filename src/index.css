@@ -22,11 +22,21 @@ p{
 .imagen1{
     width: 300px;
     height: 100px;
+    margin-left: 60px;
   
 }
 .imagen3{
+    width: 400px;
+    height: 600px;
+  
+}
+.contenedor {
+   
     width: 300px;
     height: 200px;
-    background-color: aliceblue;
-  
+    margin:auto;
+    margin-top: 0%;
+}
+.container{
+    display: flex;
 }

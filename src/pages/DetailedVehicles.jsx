@@ -18,7 +18,7 @@ const DetailedVehicles = () => {
     return (
         <>
             {/*   <h1>{store?.details?.name}</h1> */}
-            <div className="card-body text-center">
+            <div className="container">
                 <div className="imagen3">
             <img
                     src={
