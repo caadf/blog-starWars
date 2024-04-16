@@ -82,8 +82,8 @@ const Home = () => {
                                     <div class="card-body">
                                         <h5 class="card-title text-dark">{vehicles?.name}</h5>
                                         <p class="card-text"> </p> 
-                                        <Link  className="btn btn-primary" to={"/detailedvehicles/"+numero}>More Details</Link>
-                                        <button className='btn btn-warning' onClick={() => actions.addFavorites(vehicles.name)}>Favorites</button>
+                                        <Link  className="btn btn-info" to={"/detailedvehicles/"+numero}>More Details</Link>
+                                        <button className='btn btn-secondary' onClick={() => actions.addFavorites(vehicles.name)}>Favorites</button>
                                     </div>
                             </div>
                         )

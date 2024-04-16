@@ -18,11 +18,11 @@ const App = () => {
                 <div class="container-fluid">
                     <div className='row justify-content-between'>
                         <div className='col-4'>
-                    <a class="navbar-brand" href="#">STAR WARS</a>
+                    <a class="navbar-brand" href="#"><strong>STAR WARS</strong></a>
                     </div>
                     <div className='col-4 '>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav ">
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle bg-primary text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

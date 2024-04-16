@@ -40,3 +40,7 @@ p{
 .container{
     display: flex;
 }
+
+.navbar-brand{
+    font-size: 30px;
+}
