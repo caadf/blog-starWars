@@ -16,34 +16,34 @@ const getStore = ({ getStore, getActions, setStore }) => {
         },
         actions: {
             getPeople: () => {
-                fetch("https://swapi.dev/api/people/")
+                fetch("https://swapi.py4e.com/api/people/")
                     .then(response => response.json())
                     .then(datos => setStore({ people: datos }))
             },
             getPlanets: () => {
-                fetch("https://swapi.dev/api/planets/")
+                fetch("https://swapi.py4e.com/api/planets/")
                     .then(response => response.json())
                     .then(datos => setStore({ planets: datos }))
             },
             getVehicles: () => {
-                fetch("https://swapi.dev/api/vehicles/")
+                fetch("https://swapi.py4e.com/api/vehicles/")
                     .then(response => response.json())
                     .then(datos => setStore({ vehicles: datos }))
             },
             getDetailsPeople: (id) => {
-                let urls = "https://swapi.dev/api/people/" + id
+                let urls = "https://swapi.py4e.com/api/people/" + id
                 fetch(urls)
                 .then(response => response.json())
                 .then(datos => setStore({ detailedpeople: datos }))
             },
             getDetailsPlanets: (id) => {
-                let urls = "https://swapi.dev/api/planets/" + id
+                let urls = "https://swapi.py4e.com/api/planets/" + id
                 fetch(urls)
                 .then(response => response.json())
                 .then(datos => setStore({ detailedplanets: datos }))
             },
             getDetailsVehicles: (id) => {
-                let urls = "https://swapi.dev/api/vehicles/" + id
+                let urls = "https://swapi.py4e.com/api/vehicles/" + id
                 fetch(urls)
                 .then(response => response.json())
                 .then(datos => setStore({ detailedvehicles: datos }))
