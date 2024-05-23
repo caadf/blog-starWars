@@ -17,10 +17,10 @@ const App = () => {
             <nav class="navbar navbar-expand bg-body-secondary mb-5">
                 <div class="container-fluid">
                     <div className='row justify-content-between'>
-                        <div className='col-4'>
+                        <div className='title col-4'>
                     <a class="navbar-brand" href="#"><strong>STAR WARS</strong></a>
                     </div>
-                    <div className='col-4 '>
+                    <div className="navbar-dropdown col-4 ">
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav ">
 
